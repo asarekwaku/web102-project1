@@ -38,7 +38,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Time and Handling props well is something I need to work on
 
 ## License
 

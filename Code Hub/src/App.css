@@ -4,4 +4,65 @@
   padding: 2rem;
   text-align: center;
 }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
 
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+/* Learn Section */
+.learn {
+  background-color: #ffefdb;
+  padding: 40px 20px;
+}
+
+.learn h1 {
+  color: #ff8c42;
+}
+
+/* Practice Section */
+.practice {
+  background-color: #e0f7fa;
+  padding: 40px 20px;
+}
+
+.practice h1 {
+  color: #00796b;
+}
+
+/* Resources Section */
+.resources {
+  background-color: #f3e5f5;
+  padding: 40px 20px;
+}
+
+.resources h1 {
+  color: #7b1fa2;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

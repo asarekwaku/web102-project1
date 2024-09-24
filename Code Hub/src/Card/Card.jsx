@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import './Card.css'
 
 const Card = (props) => {
@@ -10,7 +10,7 @@ const Card = (props) => {
       <p className="card-description">{props.description}</p>
       <a className="card-link" href={props.link}>
         Visit Page</a>
-  </div>
+      </div>
   );
 };
 
